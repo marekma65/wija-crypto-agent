@@ -1,0 +1,26 @@
+version: "1"
+agent:
+  name: "WIJA"
+  description: "Strategic Analytics by Remonty-mielec.pl"
+  
+commands:
+  - name: "/rwa_sentiment"
+    description: "Instant on-chain sentiment check for RWA projects."
+    pricing:
+      type: "per_execution"
+      amount: "0.0005"
+      currency: "USDC"
+
+  - name: "/invest_signal"
+    description: "Detailed market timing analysis for DePIN assets."
+    pricing:
+      type: "per_execution"
+      amount: "0.005"
+      currency: "USDC"
+
+  - name: "/deep_infra_audit"
+    description: "PREMIUM: Full technical audit of the physical-to-digital bridge."
+    pricing:
+      type: "per_execution"
+      amount: "15.00"
+      currency: "USDC"
